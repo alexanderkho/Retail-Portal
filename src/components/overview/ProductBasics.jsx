@@ -1,6 +1,8 @@
 import React from 'react';
 import axios from 'axios';
-import StarRating from './StarRating.jsx'
+import StarRating from './StarRating.jsx';
+import apis from '../../apis';
+const url = apis.reviews;
 
 
 // get number of reviews from GET to /reviews/:product_id/meta and summing
@@ -29,7 +31,7 @@ class ProductBasics extends React.Component {
   }
 
   getMetaRating(productId) {
-    axios.get(`http://3.134.102.30/reviews/${productId}/meta`)
+    axios.get(`${url}${productId}/meta`)
     .then(response => {
       let avgRating = this.calcAvgRating(response.data.ratings)
       this.setState({ avgRating })

@@ -2,7 +2,8 @@ import React from 'react'
 import ReviewList from './ReviewList.jsx'
 import Ratings from './Ratings.jsx';
 import NewReview from './NewReview.jsx'
-const url = 'http://3.134.102.30/reviews/';
+import apis from '../../apis';
+const url = apis.reviews;
 
 class Reviews extends React.Component {
   constructor(props) {
@@ -11,7 +12,7 @@ class Reviews extends React.Component {
       more: false,
       reviews: [],
       meta: {},
-      page: 1,
+      page: 0, //changed default from 1 to 0 due to change to pagination in new api
       sort: 'helpful',
       charsLeft: 50,
       starFilters: [],
