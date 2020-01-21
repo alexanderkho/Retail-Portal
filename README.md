@@ -13,4 +13,4 @@ npm start
 ```
 This will launch the server on localhost:7000.
 
-I also built the back-end API for the Reviews microservice.
+I also built the back-end API for the Reviews microservice. The repo for this project can be viewed [here](https://github.com/Team-JAN/ReviewsAPI/).
