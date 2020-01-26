@@ -12,7 +12,7 @@ This application was deployed to an AWS EC2 and can be viewed [here](http://18.1
 Alternatively the application can be run locally via the following commands:
 ```
 npm install
-npm run react-dev
+npm run build
 npm start
 ```
 This will launch the server on localhost:7000.
