@@ -1,5 +1,5 @@
 # About This Application
-This is the product-landing page for a retail website. The application is composed of three distinct modules--Product Description, Questions & Answers, and Reviews. I personally built the Q&A module, and collaborated with my teammates via a git-based workflow. 
+This is the product-landing page for a retail website. The application is composed of three distinct modules--Product Description, Questions & Answers, and Reviews. I personally built the Q&A module, and collaborated with my teammates via an Agile & git workflow. 
 
 <img src="https://i.ibb.co/NtBqhPS/fec2.jpg" alt="Landing Page" width="30%" />
 
