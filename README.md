@@ -7,7 +7,7 @@ This project was built with React.js, jQuery, Bootstrap, CSS, Sass and HTML. Amo
 
 <img src="https://i.ibb.co/MkJsDnx/fec1.jpg" alt="Text-highlighting Search" width="60%" />
 
-Alternatively the application can be run locally via the following commands:
+The application can be run locally via the following commands:
 ```
 npm install
 npm run build
