@@ -7,8 +7,6 @@ This project was built with React.js, jQuery, Bootstrap, CSS, Sass and HTML. Amo
 
 <img src="https://i.ibb.co/MkJsDnx/fec1.jpg" alt="Text-highlighting Search" width="60%" />
 
-This application was deployed to an AWS EC2 and can be viewed [here](http://18.188.132.96:7000/).
-
 Alternatively the application can be run locally via the following commands:
 ```
 npm install
